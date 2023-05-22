@@ -25,5 +25,7 @@
 	<string>$(PRODUCT_NAME) would like to use your Media Library</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>$(PRODUCT_NAME) would like to use your Photo Library</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>For location service</string>
 </dict>
 </plist>

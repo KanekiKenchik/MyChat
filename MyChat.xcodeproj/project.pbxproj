@@ -28,7 +28,6 @@
 		11BF1E8028AD220D00C3F441 /* FCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF1E7F28AD220C00C3F441 /* FCollectionReference.swift */; };
 		11BF1E8228AD281600C3F441 /* FirebaseUserListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF1E8128AD281600C3F441 /* FirebaseUserListener.swift */; };
 		11BF1E8428AD70E400C3F441 /* RecentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF1E8328AD70E400C3F441 /* RecentsViewController.swift */; };
-		11BF1E8828AE502E00C3F441 /* ChannelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF1E8728AE502E00C3F441 /* ChannelsViewController.swift */; };
 		11BF1E8A28AE504E00C3F441 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF1E8928AE504E00C3F441 /* UsersViewController.swift */; };
 		11BF1E8C28AE506600C3F441 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF1E8B28AE506600C3F441 /* SettingsViewController.swift */; };
 		11BF1E8E28AE81FA00C3F441 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF1E8D28AE81FA00C3F441 /* ProfileTableViewCell.swift */; };
@@ -42,6 +41,9 @@
 		11BF1E9E28B187A300C3F441 /* Extenshions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF1E9D28B187A300C3F441 /* Extenshions.swift */; };
 		11BF1EA028B3A83A00C3F441 /* UserProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF1E9F28B3A83A00C3F441 /* UserProfileTableViewCell.swift */; };
 		11BF1EA228B3ACC900C3F441 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BF1EA128B3ACC900C3F441 /* UserProfileViewController.swift */; };
+		11C410DD2A1BCB4E00EF06F8 /* EventMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C410DC2A1BCB4E00EF06F8 /* EventMapViewController.swift */; };
+		11C410DF2A1BCBE800EF06F8 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C410DE2A1BCBE700EF06F8 /* Places.swift */; };
+		11C410E12A1BCD0B00EF06F8 /* Places.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 11C410E02A1BCD0A00EF06F8 /* Places.geojson */; };
 		11F4FABC28BA5E7D003690AB /* StartChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4FABB28BA5E7D003690AB /* StartChat.swift */; };
 		11F4FABE28BA61A5003690AB /* FirebaseRecentListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4FABD28BA61A5003690AB /* FirebaseRecentListener.swift */; };
 		11F4FAC028BBC3EC003690AB /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F4FABF28BBC3EC003690AB /* ChatViewController.swift */; };
@@ -77,7 +79,6 @@
 		11BF1E7F28AD220C00C3F441 /* FCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCollectionReference.swift; sourceTree = "<group>"; };
 		11BF1E8128AD281600C3F441 /* FirebaseUserListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUserListener.swift; sourceTree = "<group>"; };
 		11BF1E8328AD70E400C3F441 /* RecentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsViewController.swift; sourceTree = "<group>"; };
-		11BF1E8728AE502E00C3F441 /* ChannelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsViewController.swift; sourceTree = "<group>"; };
 		11BF1E8928AE504E00C3F441 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		11BF1E8B28AE506600C3F441 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		11BF1E8D28AE81FA00C3F441 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
@@ -91,6 +92,9 @@
 		11BF1E9D28B187A300C3F441 /* Extenshions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenshions.swift; sourceTree = "<group>"; };
 		11BF1E9F28B3A83A00C3F441 /* UserProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileTableViewCell.swift; sourceTree = "<group>"; };
 		11BF1EA128B3ACC900C3F441 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		11C410DC2A1BCB4E00EF06F8 /* EventMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMapViewController.swift; sourceTree = "<group>"; };
+		11C410DE2A1BCBE700EF06F8 /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		11C410E02A1BCD0A00EF06F8 /* Places.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Places.geojson; sourceTree = "<group>"; };
 		11F4FABB28BA5E7D003690AB /* StartChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartChat.swift; sourceTree = "<group>"; };
 		11F4FABD28BA61A5003690AB /* FirebaseRecentListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRecentListener.swift; sourceTree = "<group>"; };
 		11F4FABF28BBC3EC003690AB /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -140,7 +144,7 @@
 			children = (
 				11BF1E6528AC46D500C3F441 /* LogInViewController.swift */,
 				11BF1E8328AD70E400C3F441 /* RecentsViewController.swift */,
-				11BF1E8728AE502E00C3F441 /* ChannelsViewController.swift */,
+				11C410DC2A1BCB4E00EF06F8 /* EventMapViewController.swift */,
 				11BF1E8928AE504E00C3F441 /* UsersViewController.swift */,
 				11BF1E8B28AE506600C3F441 /* SettingsViewController.swift */,
 			);
@@ -154,13 +158,6 @@
 				11F4FAC428BBD3A4003690AB /* ChatViewExtenshions */,
 			);
 			path = MessagesViews;
-			sourceTree = "<group>";
-		};
-		11478AD628B64F96003C46AA /* ChannelsViews */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ChannelsViews;
 			sourceTree = "<group>";
 		};
 		11478AD728B64FE2003C46AA /* ProfileEditViewCells */ = {
@@ -240,7 +237,6 @@
 				11BF1E6328AC46D500C3F441 /* SceneDelegate.swift */,
 				11478AD428B64F7F003C46AA /* MainViews */,
 				11478AD528B64F8D003C46AA /* MessagesViews */,
-				11478AD628B64F96003C46AA /* ChannelsViews */,
 				11478ADA28B6531D003C46AA /* UsersViews */,
 				11478AD228B64E4F003C46AA /* SettingsViews */,
 				11478AD328B64F2F003C46AA /* CustomCells */,
@@ -258,6 +254,7 @@
 		11BF1E7B28AD1CB500C3F441 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				11C410DE2A1BCBE700EF06F8 /* Places.swift */,
 				11BF1E7928AD1CA700C3F441 /* UserModel.swift */,
 				11478ADB28B78C1A003C46AA /* RecentChat.swift */,
 				118DF88D28BCCF3900D1DEAF /* MKMessage.swift */,
@@ -284,6 +281,7 @@
 		11BF1E8628ADA1AC00C3F441 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				11C410E02A1BCD0A00EF06F8 /* Places.geojson */,
 				11BF1E7C28AD1E8E00C3F441 /* Constants.swift */,
 				11BF1E9B28B17DEA00C3F441 /* GlobalFunctions.swift */,
 				11F4FABB28BA5E7D003690AB /* StartChat.swift */,
@@ -383,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11BF1E6E28AC46D800C3F441 /* LaunchScreen.storyboard in Resources */,
+				11C410E12A1BCD0B00EF06F8 /* Places.geojson in Resources */,
 				11BF1E6B28AC46D800C3F441 /* Assets.xcassets in Resources */,
 				11BF1E7628AC494800C3F441 /* GoogleService-Info.plist in Resources */,
 			);
@@ -440,7 +439,6 @@
 				11F4FAC628BBD3BA003690AB /* MessageCellDelegate.swift in Sources */,
 				111C46BF28BF8C5700D217BB /* FirebaseTypingListener.swift in Sources */,
 				11F4FAC828BBD3C7003690AB /* MessageDisplayDelegate.swift in Sources */,
-				11BF1E8828AE502E00C3F441 /* ChannelsViewController.swift in Sources */,
 				11F4FABC28BA5E7D003690AB /* StartChat.swift in Sources */,
 				11F4FACA28BBD3D3003690AB /* MessageLayoutDelegate.swift in Sources */,
 				118DF89328BCD74100D1DEAF /* RealmManager.swift in Sources */,
@@ -456,6 +454,7 @@
 				11F4FACC28BBD3E3003690AB /* InputBarAccessoryViewDelegate.swift in Sources */,
 				118DF89028BCD10900D1DEAF /* LocalMessage.swift in Sources */,
 				11BF1E6628AC46D500C3F441 /* LogInViewController.swift in Sources */,
+				11C410DF2A1BCBE800EF06F8 /* Places.swift in Sources */,
 				11F4FABE28BA61A5003690AB /* FirebaseRecentListener.swift in Sources */,
 				11BF1E9828B1379000C3F441 /* StatusEditTableViewCell.swift in Sources */,
 				11BF1EA228B3ACC900C3F441 /* UserProfileViewController.swift in Sources */,
@@ -465,6 +464,7 @@
 				11BF1E9C28B17DEA00C3F441 /* GlobalFunctions.swift in Sources */,
 				11BF1E9A28B14A2C00C3F441 /* FileStorage.swift in Sources */,
 				118DF88E28BCCF3900D1DEAF /* MKMessage.swift in Sources */,
+				11C410DD2A1BCB4E00EF06F8 /* EventMapViewController.swift in Sources */,
 				11BF1E9228B0E73400C3F441 /* ProfileEditViewController.swift in Sources */,
 				118DF88C28BCCB5F00D1DEAF /* MessageKitDefaults.swift in Sources */,
 				11BF1E7A28AD1CA700C3F441 /* UserModel.swift in Sources */,

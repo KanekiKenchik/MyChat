@@ -80,7 +80,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let tabBarVC = UITabBarController()
         
         let vc1 = UINavigationController(rootViewController: RecentsViewController())
-        let vc2 = UINavigationController(rootViewController: ChannelsViewController())
+        let vc2 = UINavigationController(rootViewController: EventMapViewController())
         let vc3 = UINavigationController(rootViewController: UsersViewController())
         let vc4 = UINavigationController(rootViewController: SettingsViewController())
         
@@ -88,8 +88,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let items = tabBarVC.tabBar.items else { return }
         
-        let images = ["message", "quote.bubble", "person.2", "gear"]
-        let titles = ["Messages", "Channels", "Users", "Settings"]
+        let images = ["message", "map", "person.2", "gear"]
+        let titles = ["Messages", "Event Map", "Users", "Settings"]
         
         for i in 0..<items.count {
             items[i].image = UIImage(systemName: images[i])
